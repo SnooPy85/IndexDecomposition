@@ -8,6 +8,10 @@ sectors such as pulp and paper to less intensive ones like services) and
 technical change, meaning the improvement of production technologies 
 so that for the same output produced, less CO2 is produced. Of course,
 there are more various possible use cases. 
+
+So for, only the Log Mean Divisia Index (LMDI) is implemented in a
+multiplicative version. Additive and other methods will be implemented
+in the future.
     
 The class requires on instancing
 two Pandas dataframes: df_size and df_indicator. df_size includes data
@@ -19,9 +23,9 @@ If so, the name of this column must be provided by the argument id_column.
 The different states (e.g. years in our example) are the columns of the 
 Pandas dataframe. Here is an example:
         
-    sector  _2018   _2019 _2020 _2021
-    A       1   1.2   1.3   1.3
-    B       3     3.3   2.9   3.5
+    sector _2018 _2019 _2020 _2021
+      A       1   1.2   1.3   1.3
+      B       3   3.3   2.9   3.5
       
 In this example, id_column must equal sector. Please make sure there is no 
 row for the total in! In a similar fashion, the dataframe df_indicator is
