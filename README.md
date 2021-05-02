@@ -19,9 +19,9 @@ If so, the name of this column must be provided by the argument id_column.
 The different states (e.g. years in our example) are the columns of the 
 Pandas dataframe. Here is an example:
         
-sector  _2018 _2019 _2020 _2021
-   A       1     1.2   1.3   1.3
-   B       3     3.3   2.9   3.5
+    sector  _2018   _2019 _2020 _2021
+    A       1     1.2   1.3   1.3
+    B       3     3.3   2.9   3.5
       
 In this example, id_column must equal sector. Please make sure there is no 
 row for the total in! In a similar fashion, the dataframe df_indicator is
