@@ -20,7 +20,7 @@ The different states (e.g. years in our example) are the columns of the
 Pandas dataframe. Here is an example:
         
     sector  _2018   _2019 _2020 _2021
-    A       1     1.2   1.3   1.3
+    A       1   1.2   1.3   1.3
     B       3     3.3   2.9   3.5
       
 In this example, id_column must equal sector. Please make sure there is no 
